@@ -1,0 +1,70 @@
+@-moz-viewport { width:device-width; scale: 1}
+@-ms-viewport { width:device-width; scale: 1}
+@-o-viewport { width:device-width; scale: 1}
+@-webkit-viewport { width:device-width; scale: 1}
+@viewport { width:device-width; scale: 1}
+
+html{
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: 'Scada', sans-serif;
+}
+
+*, *::before,*::after {
+  box-sizing: inherit;
+}
+
+header {
+  position: relative;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.section {
+  background-color: #F27921;
+}
+
+.section-mid {
+  background-color: #BC2228;
+}
+
+.sec-3 {
+  background-color: #F27921;
+}
+
+.btn {
+  background-color: #F3BB53;
+}
+
+.logo {
+  width: 30%;
+}
+
+
+header {
+  background-color: #F27921;
+}
+
+.banner {
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+  padding: 0.7em;
+  font-size: 2em;
+  background-color: #FF75FF;
+  color: #fff;
+}
+
+footer {
+  background-color: #FFEC00;
+}
